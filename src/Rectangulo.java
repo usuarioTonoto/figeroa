@@ -33,7 +33,6 @@ public class Rectangulo {
     }
 
     public Integer obtenerArea() {
-        int area = base * altura;
-        return area;
+        return base * altura;
     }
 }
