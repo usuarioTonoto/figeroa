@@ -17,7 +17,6 @@ public class Rectangulo {
 
     public void setBase(int base) {
         this.base = base;
-
     }
 
     public Integer getBase() {
