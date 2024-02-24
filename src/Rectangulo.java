@@ -5,20 +5,18 @@ public class Rectangulo {
     Integer altura;
     String nombre;
 
-    Rectangulo(String nombre ) {
-
+    Rectangulo(String nombre) {
         this.nombre = nombre;
-
     }
 
     Rectangulo(String nombre, int base, int altura) {
-        this.nombre=nombre;
-        this.base=base;
-        this.altura=altura;
+        this.nombre = nombre;
+        this.base = base;
+        this.altura = altura;
     }
 
     public void setBase(int base) {
-       this.base=base;
+        this.base = base;
 
     }
 
@@ -27,7 +25,7 @@ public class Rectangulo {
     }
 
     public void setAltura(int altura) {
-        this.altura=altura;
+        this.altura = altura;
     }
 
     public Integer getAltura() {
@@ -35,7 +33,7 @@ public class Rectangulo {
     }
 
     public Integer obtenerArea() {
-        int area=base*altura;
+        int area = base * altura;
         return area;
     }
 }
