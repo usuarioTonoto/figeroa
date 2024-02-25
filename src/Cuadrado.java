@@ -1,22 +1,28 @@
+//Pto quien lo lea
 public class Cuadrado {
-    // Integer debe de ser privado
-    Integer lado;
-    String nombre;
+    private String nombre;
+    public int lado;
 
-    Cuadrado(String nombre) {
+    public Cuadrado(String nombre) {
+        this.nombre = nombre;
+        this.lado = 0;
     }
 
-    Cuadrado(String nombre, int lado) {
+    // Segundo constructor
+    public Cuadrado(String nombre, int lado) {
+        this.nombre = nombre;
+        this.lado = lado;
     }
 
     public void setLado(int lado) {
+        this.lado = lado;
     }
 
-    public Integer getLado() {
-        return null;
+    public int getLado() {
+        return this.lado;
     }
 
-    public Integer obtenerArea() {
-        return null;
+    public int obtenerArea() {
+        return this.lado * this.lado;
     }
 }
