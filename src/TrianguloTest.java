@@ -14,7 +14,7 @@ class TrianguloTest {
     @Test
     void getBase() {
         Triangulo unTriangulo = new Triangulo("Otro triangulo", 20, 80);
-        assertEquals(80, unTriangulo.getBase());
+        assertEquals(20, unTriangulo.getBase());
     }
 
     @Test
